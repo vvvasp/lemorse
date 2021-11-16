@@ -1,0 +1,87 @@
+/* Styling the video*/
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .html, body {
+    margin: 20px;
+    height: 812px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #6A4240;
+    font-size: 9vw;
+}
+
+.logo {
+    width: 35vw;
+    height: auto;
+}
+
+.container1 {
+    padding: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* For desktop*/
+@media only screen and (min-width: 800px) {
+    .html, body {
+        margin: 20px;
+        height: 840px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container1 {
+        padding: 200px 10px 10px 10px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .heading {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Poppins', sans-serif;
+        color: #6A4240;
+        font-size: 70px;
+    }
+
+    .logo {
+        width: 20vw;
+        height: auto;
+    }
+
+    .menus {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+
+
+
+}
